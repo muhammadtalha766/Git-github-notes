@@ -1,0 +1,50 @@
+git --version : to check version
+git config --global user.name "Talha" : set user name
+git config --global user.email talha@gmial.com : set gmial
+git config --list : to check user name and mail
+git init : To make git file
+git ls -la : to check giving file is add in git file {(.git) showes it is.}
+git add . / git add <filename> : to add files (add dot is use for adding all files)
+git commit -m "Tyoe here massege" : for commit or final save
+git branch : to check branch
+git log : see commits and what changes in file/code
+git log -p -2 : last two commit with difference 
+git log --stat : summary of changes
+git log --pretty=oneline : show every commit in one line
+git log -S "h1" : check when i use h1 tag in code etc  
+git log --grep="message you want to check (fixing error/ add new tag)" : check specific commit 
+git diff : to check changes between first and second file/code
+git status : check status
+git show <git commit ID :<filename> > : check old file/ read old file/code in terminal
+git checkout <git commit ID -- */<filename> > : check/see old file on vs code
+git chechout master -- * : back to final/last code 
+git restore . : if we made any change by mistake in file/code 
+git restore staged . : if we made any change by mistake in file/code and also add it {after come back using (git restore .)} 
+git restore --worktree . : added changes to staging area (did'n commit ) after this added morre changes to file
+git reset --hard Head^ : how about if we commit also wring files/ go to presious commit
+git reset --hard <commit ID> : go to specific commit if we commit also wring files/ go to presious commit
+
+   To push code on github
+git remote add origin < github repo URL>
+git branch -M mian
+git push -u origin mian
+
+git pull : pull file remote to local
+git clone <https github url> : pull new repo remote to local
+
+git remote -v : To check which your remote repo is linked  (github)
+
+   branch and merge 
+git branch <newbranchname> : make new branch
+git chechout <branch name> : to move on new branch
+git merge <new branch name> : first go to main than run this commmand
+
+"fork" make copy repo of other user and (contribute and pull request type your message)
+
+   git ignore 
+make a filw with name (.gitignore) type name of secret file in it like sercret.html passwprd.json etc. git auto ignore these files
+git clean -n : for clean untracked file but not delete it (show warning)
+git clean -f : clean and delete untracked files
+git tag -a <name> -m "type name" : to give tag current commit file 
+    git show <tag name>: check commit using tag
+
