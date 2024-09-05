@@ -42,7 +42,7 @@ git merge <new branch name> : first go to main than run this commmand
 "fork" make copy repo of other user and (contribute and pull request type your message)
 
    git ignore 
-make a filw with name (.gitignore) type name of secret file in it like sercret.html passwprd.json etc. git auto ignore these files
+make a file with name (.gitignore) type name of secret file in it like sercret.html passwprd.json etc. git auto ignore these files
 git clean -n : for clean untracked file but not delete it (show warning)
 git clean -f : clean and delete untracked files
 git tag -a <name> -m "type name" : to give tag current commit file 
